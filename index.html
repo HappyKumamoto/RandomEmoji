@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ランダムemoji</title>
+    <link rel="stylesheet" href="onclick2.css" />
+    
+</head>
+<body>
+    <h1>&nbsp;<!--一行目空間確保と、special.jsで絵文字を表示-->
+        <span id="special" class="roll" style="font-size:500%;">
+        </span><!--「おしいです」のとき、絵文字が回転しながら透過度を変えて降りていく-->
+        &nbsp;
+    </h1>
+    
+    <h1 id="display-area"></h1> <!--秒数含め結果表示エリア-->
+   
+    <h1> <!--cssで動きをつける。クリックまたはタップする標的・エリア-->
+        <span id="onclick-area" class="marquee-anime" style="font-size:350%;">
+         </span>
+    </h1>
+    
+    <div id="kami" class="snow"></div> <!--紙ふぶき用div-->
+                                       <!--絵文字の雨用div-->
+   
+    <script src="onclick.js"></script> <!--秒当てゲームの中心的Js-->
+</body>
+</html>
