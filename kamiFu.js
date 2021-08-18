@@ -3,7 +3,7 @@
 let screen_w = window.innerWidth;//画面を全部使う
 let screen_h = window.innerHeight;
 
-const KAMIFUBUKI = 100;//紙の枚数
+const KAMIFUBUKI = 150;//紙の枚数
 const COLORS = 
 ["#F5A4B8","#BEC14B","#DED5C0","#F8D400","#BBD33E","#A85EAC","#D64464",];
 //鴇色(とき),鶸色(ひわ),象牙色,ジョンブリアン,シャトルーズグリーン,パープル,ローズ
