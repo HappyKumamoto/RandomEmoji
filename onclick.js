@@ -17,7 +17,7 @@ const game = {
     onclickArea: document.getElementById('onclick-area'),
 
     bgm1:new Audio('bgm/hands.mp3'),
-    bgm2:new Audio('bgm/tekkin.mp3'),
+    bgm2:new Audio('bgm/sawayaka.mp3'),
     bgm3:new Audio('bgm/oshii.mp3')
 
 };
