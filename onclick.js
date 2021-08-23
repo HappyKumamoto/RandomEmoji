@@ -58,7 +58,7 @@ function stop() {
 
     }else if( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+1) ) {
         //( 当てる秒数 + 1 )未満ならば 「すばらしい」を表示
-        displayArea.innerText = `${seconds}秒でした！
+        game.displayArea.innerText = `${seconds}秒でした！
         ＼すばらしい！／`;
         document.body.appendChild(sn);//snow.jsで回転する絵文字を降らせる
         snow.innerHTML= emojis[emojiNo];
