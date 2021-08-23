@@ -3,9 +3,9 @@
 - リロードする度に当てる「秒数」(5〜10)と、押す標的の「Emoji」(30種以上)は変わります。
 - 当てる秒数との誤差により、3段階のリアクションが出現します。<br>
 
-![16](https://user-images.githubusercontent.com/67646107/130394281-9dbf061a-ead9-4a13-a683-769e3cdb9c15.png)
-![04](https://user-images.githubusercontent.com/67646107/130394550-9ceb2b7c-ca68-4e27-9854-7fb4804973c4.png)
-![06](https://user-images.githubusercontent.com/67646107/130394562-f8e14ecc-1a8a-411d-b199-6bd4372aa48a.png)
+![16](https://user-images.githubusercontent.com/67646107/130400790-3da4154e-0570-4ee2-a4f6-b6f74a01f6f2.png)
+![04](https://user-images.githubusercontent.com/67646107/130400805-9fe924cc-8171-40f6-9c55-16a03a710e7c.png)
+![06](https://user-images.githubusercontent.com/67646107/130400820-16b21ddd-d18a-463e-9c3f-bcfef1af7715.png)
 <br>秒数+0.5未満　　　　　　　+0.5=<秒数<+1.0　　　　　それ以外のとき
 - スマホ(iPhone)での見え方<br>
 ![17](https://user-images.githubusercontent.com/67646107/130399439-c4bb8a84-148d-4cb1-9c32-c64edad95222.jpeg)
