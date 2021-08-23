@@ -5,7 +5,7 @@
 let el = document.createElement("script");//紙吹雪のkamiFu.jsを持ってくる
 el.src = "kamiFu.js";
 
-let sn = document.createElement("script");//雪の結晶のsnow.jsを持ってくる
+let sn = document.createElement("script");//絵文字が降るsnow.jsを持ってくる
 sn.src = "snow.js";
 
 let sp = document.createElement("script");//「おしい」のときのspecial.js
