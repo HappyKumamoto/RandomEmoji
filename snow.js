@@ -37,5 +37,5 @@ function snowSet(clone) {
     }, false)
 }
 
-//❄を50個降らせる
+//絵文字を50個降らせる
 snowMaker(50)
