@@ -18,7 +18,7 @@ const game = {
 
     bgm1:new Audio('bgm/hands.mp3'),
     bgm2:new Audio('bgm/tekkin.mp3'),
-    bgm3:new Audio('bgm/kakott.mp3')
+    bgm3:new Audio('bgm/oshii.mp3')
 
 };
 
