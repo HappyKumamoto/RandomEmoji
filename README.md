@@ -2,7 +2,8 @@
 - 指定された秒数を当てるゲームです。(ご注意ください : 音が出ます)
 - リロードする度に 当てる「秒数」(5〜10)と、押す標的の 「Emoji」(30種以上) は変わります。
 - 当てる秒数との誤差により、3段階の リアクション(動きと音)があります。
-- 効果音は「効果音ラボ・フリー」https://soundeffect-lab.info/より<br>
+- 効果音は「効果音ラボ・フリー」https://soundeffect-lab.info と<br>
+　　　　「フリー効果音 On-Jin 〜音人〜」https://on-jin.com より<br>
 
 ![16](https://user-images.githubusercontent.com/67646107/130400790-3da4154e-0570-4ee2-a4f6-b6f74a01f6f2.png)
 ![04](https://user-images.githubusercontent.com/67646107/130400805-9fe924cc-8171-40f6-9c55-16a03a710e7c.png)
