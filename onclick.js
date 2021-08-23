@@ -17,8 +17,8 @@ const game = {
     onclickArea: document.getElementById('onclick-area'),
 
     bgm1:new Audio('bgm/hands.mp3'),
-    bgm2:new Audio('bgm/sawayaka.mp3'),
-    bgm3:new Audio('bgm/oshii.mp3')
+    bgm2:new Audio('bgm/tekkin.mp3'),
+    bgm3:new Audio('bgm/tudumi.mp3')
 
 };
 
@@ -57,10 +57,11 @@ function stop() {
         //game.bgm1.loop = true;//bgm繰り返し
 
     }else if( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+1) ) {
+        game.bgm2.play();
         //( 当てる秒数 + 1 )未満ならば 「すばらしい」を表示
         game.displayArea.innerText = `${seconds}秒でした！
         ＼すばらしい！／`;
-         game.bgm1.play();
+        
         document.body.appendChild(sn);//snow.jsで回転する絵文字を降らせる
         snow.innerHTML= emojis[emojiNo];
         
