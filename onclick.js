@@ -1,5 +1,6 @@
 //秒当てゲームの中心的Js
-//gameオブジェクト //音を追加
+//gameオブジェクト
+//音を追加
 
 let el = document.createElement("script");//紙吹雪のkamiFu.jsを持ってくる
 el.src = "kamiFu.js";
