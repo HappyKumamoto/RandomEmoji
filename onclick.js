@@ -11,26 +11,27 @@ sn.src = "snow.js";
 let sp = document.createElement("script");//「おしい」のときのspecial.js
 sp.src = "special.js";
 
-const game = {
+const game = { //gameオブジェクトの宣言
     startTime: null,
     displayArea: document.getElementById('display-area'),
     onclickArea: document.getElementById('onclick-area'),
 
-    bgm1:new Audio('bgm/hands.mp3'),
-    bgm2:new Audio('bgm/tekkin.mp3'),
-    bgm3:new Audio('bgm/oshii.mp3')
+    bgm1:new Audio('bgm/hands.mp3'),   //紙吹雪の時
+    bgm2:new Audio('bgm/tekkin.mp3'),  //絵文字が降る時
+    bgm3:new Audio('bgm/oshii.mp3')    //「おしい」の時
 
 };
 
 
 let ss = [ 5 , 6 , 7 , 8 , 9 , 10 ]; //今回当てる秒数を5〜10の中からランダムで出す
-let ssNo = Math.floor(Math.random() * ss.length);//ss[ssNo]はconfirmに表示させる
+let ssNo = Math.floor(Math.random() * ss.length); //ss[ssNo]はconfirmに表示させる
 
 
 function start(){
     game.startTime = Date.now();      //上で用意した変数startTimeへ現在時刻のミリ秒を代入
     document.body.onclick = stop;
 }
+
 //onclick-areaの絵文字をランダムに出す
 let emojis = [' 💡 ' ,  ' ☁️ '  , ' 🤍 ' , ' 🥚 ' , '🖱' , ' 🎾 ' ,' 🗿 ' ,
 ' 🥛 ' , ' 🗑 ' , ' 🌕 '  , ' 📷 ' , ' 🧰 ' , ' 📀 ' , 
@@ -49,30 +50,37 @@ function stop() {
     let currentTime = Date.now();
     let seconds = (currentTime - game.startTime) / 1000;
     if ( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+0.5) ) {
-        //( 当てる秒数 + 0.5 )未満ならば 「おめでとう」と紙吹雪表示
+        //( 当てる秒数 + 0.5 )未満ならば 「おめでとう」と紙吹雪表示 + 効果音
+        
+        game.bgm1.play();       //歓声と拍手
+        //game.bgm1.loop = true;//bgm繰り返し
+        
         game.displayArea.innerText = `${seconds}秒でした！
         おめでとうございます!! `;
         document.body.appendChild(el);  //kami.jsで紙吹雪を出す
-        game.bgm1.play();
-        //game.bgm1.loop = true;//bgm繰り返し
-
+        
     }else if( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+1) ) {
-        game.bgm2.play();
-        //( 当てる秒数 + 1 )未満ならば 「すばらしい」を表示
+        //( 当てる秒数 + 1 )未満ならば 「すばらしい」を表示 + 効果音
+        
+        game.bgm2.play();        //鉄琴の音色
+        
         game.displayArea.innerText = `${seconds}秒でした！
         ＼すばらしい！／`;
         
-        document.body.appendChild(sn);//snow.jsで回転する絵文字を降らせる
+        document.body.appendChild(sn);   //snow.jsで回転する絵文字を降らせる
         snow.innerHTML= emojis[emojiNo];
         
     }else{
         game.displayArea.innerText = `${seconds}秒でした！
         ＼ おしいです ／ `;
-        //今回の絵文字が回転しながら透過度も変化しながら降りていく
+        //今回の絵文字が回転しながら透過度も変化しながら降りていく + 効果音
+        
+        game.bgm3.play();    //残念な感じのジングル
+        
         document.body.appendChild(sp);
         special.innerText = emojis[emojiNo];
         //appendScript(sp);
-        game.bgm3.play();
+        
     }
   document.body.onclick = null;   //二回以上は押せないようにする
 }   
