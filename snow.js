@@ -1,16 +1,16 @@
 //当てる秒数 + 0.5秒以降のとき
 //絵文字が回りながら降るJs
-//当初、雪の結晶絵文字「固定」で作り始めたためsnow.js
+//当初、涼しげな雪の結晶絵文字「固定」で作り始めたためsnow.js
 let snow = document.getElementsByClassName('snow');
 
-let oncli = document.createElement("script");//onclick.jsを持ってくる
+let oncli = document.createElement("script");   //onclick.jsを持ってくる
 oncli.src = "onclick.js";
 
 //絵文字を作る関数。n は個数
 function snowMaker(n) {
     let snow = document.createElement("div");
     snow.className = "snow";
-    snow.textContent = `${emojis[emojiNo]}`;//今回の絵文字
+    snow.textContent = `${emojis[emojiNo]}`;   //今回の絵文字
     for(let i = 0; i < n; i++) {
         snowSet(snow);
     }
@@ -32,7 +32,7 @@ function snowSet(clone) {
         this.parentNode.removeChild(this);
         let snow = document.createElement("div");
         snow.className = "snow";
-        snow.textContent = `${emojis[emojiNo]}`;//今回の絵文字
+        snow.textContent = `${emojis[emojiNo]}`;   //今回の絵文字
         snowSet(snow);
     }, false)
 }
