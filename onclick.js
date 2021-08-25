@@ -16,7 +16,7 @@ const game = { //gameオブジェクトの宣言
     displayArea: document.getElementById('display-area'),
     onclickArea: document.getElementById('onclick-area'),
 
-    bgm1:new Audio('bgm/hands.mp3'),   //紙吹雪の時
+    bgm1:new Audio('bgm/hands.mp3'),   //紙吹雪の時の効果音
     bgm2:new Audio('bgm/tekkin.mp3'),  //絵文字が降る時
     bgm3:new Audio('bgm/oshii.mp3')    //「おしい」の時
 
