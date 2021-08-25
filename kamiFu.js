@@ -50,7 +50,7 @@ class Kam {
             this.y = -20;
         }
 
-        this.ang += this.spd;
+        this.ang += this.spd;//3Dで回転 回転角度と速さ
         this.sty.left = this.x + "px";
         this.sty.top =  this.y + "px";
         this.sty.transform = "rotate3D(" +this.rX + "," + this.rY + ","
