@@ -16,7 +16,7 @@ function snowMaker(n) {
     }
 }
 
-//❄のセッティングをする関数。
+//絵文字のセッティングをする関数。
 function snowSet(clone) {
     let snowClone = clone.cloneNode(true);
     let snowStyle = snowClone.style;
