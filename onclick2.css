@@ -11,7 +11,7 @@
    display: inline-block;
    padding-left: 100%;
    white-space: nowrap;     
-   animation: marquee 6.54s 3.45s infinite;
+   animation: marquee 4.32s 3.45s infinite;
    animation-direction: alternate;  /*順方向と逆方向を繰り返す*/
    animation-timing-function: linear ; /*動きを一定に*/
    }
