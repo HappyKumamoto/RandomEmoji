@@ -51,6 +51,7 @@ document.getElementById('onclick-area').innerHTML = emojis[emojiNo];
 function stop() {
     let currentTime = Date.now();
     let seconds = (currentTime - game.startTime) / 1000;
+    let snow = sn.src;
     
     document.body.onclick = null;   //二回以上は押せないようにする
     
