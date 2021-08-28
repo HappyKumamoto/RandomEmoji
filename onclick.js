@@ -50,6 +50,9 @@ document.getElementById('onclick-area').innerHTML = emojis[emojiNo];
 function stop() {
     let currentTime = Date.now();
     let seconds = (currentTime - game.startTime) / 1000;
+    
+    document.body.onclick = null;   //二回以上は押せないようにする
+    
     if ( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+0.5) ) {
         //( 当てる秒数 + 0.5 )未満ならば 「おめでとう」と紙吹雪表示 + 効果音
         
@@ -83,7 +86,7 @@ function stop() {
         //appendScript(sp);
         
     }
-  document.body.onclick = null;   //二回以上は押せないようにする
+  //document.body.onclick = null; (二度目禁止「すばらしい」で効かなかった為上に移動)
 }   
 
 //コンファーム内の表示
