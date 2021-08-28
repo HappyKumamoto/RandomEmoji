@@ -74,6 +74,11 @@ function stop() {
         
         document.body.appendChild(sn);   //snow.jsで回転する絵文字を降らせる
         snow.innerText = emojis[emojiNo];
+        /* ⬆ここにエラー出ていて、解決できず。
+           問題なく動いているけれど、この「すばらしい」の時にエラー
+           
+        Uncaught ReferenceError: snow is not defined
+          at HTMLBodyElement.stop (onclick.js:76)*/
         
     }else{
         game.displayArea.innerText = `${seconds}秒でした！
