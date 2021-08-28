@@ -73,7 +73,7 @@ function stop() {
         ＼すばらしい！／`;
         
         document.body.appendChild(sn);   //snow.jsで回転する絵文字を降らせる
-        snow.innerHTML= emojis[emojiNo];
+        snow.innerText = emojis[emojiNo];
         
     }else{
         game.displayArea.innerText = `${seconds}秒でした！
