@@ -51,7 +51,9 @@ document.getElementById('onclick-area').innerHTML = emojis[emojiNo];
 function stop() {
     let currentTime = Date.now();
     let seconds = (currentTime - game.startTime) / 1000;
-    let snow = sn.src;
+    let snow = sn.src; //⬇というエラーが出た為
+          /*Uncaught ReferenceError: snow is not defined
+          at HTMLBodyElement.stop */
     
     document.body.onclick = null;   //二回以上は押せないようにする
     
@@ -75,11 +77,6 @@ function stop() {
         
         document.body.appendChild(sn);   //snow.jsで回転する絵文字を降らせる
         snow.innerText = emojis[emojiNo];
-        /* ⬆ここにエラー出ていて、解決できず。
-           問題なく動いているけれど、この「すばらしい」の時にエラー
-           
-        Uncaught ReferenceError: snow is not defined
-          at HTMLBodyElement.stop (onclick.js:76)*/
         
     }else{
         game.displayArea.innerText = `${seconds}秒でした！
