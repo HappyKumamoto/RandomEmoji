@@ -10,7 +10,7 @@ oncli.src = "onclick.js";
 function snowMaker(n) {
     let snow = document.createElement("div");
     snow.className = "snow";
-    snow.textContent = `${emojis[emojiNo]}`;   //今回の絵文字
+    snow.textContent = `${emojis[emojiNo]}`;   //onclick.jsより 今回の絵文字
     for(let i = 0; i < n; i++) {
         snowSet(snow);
     }
