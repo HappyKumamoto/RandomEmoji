@@ -17,3 +17,9 @@
 ![17](https://user-images.githubusercontent.com/67646107/130399439-c4bb8a84-148d-4cb1-9c32-c64edad95222.jpeg)
 ![18](https://user-images.githubusercontent.com/67646107/130399454-cb23a077-e549-4e8f-8fa2-d6e1fa5abd31.jpeg)
 
+&nbsp; <br>
+
+◯ cssのアニメーションの遅延 animation-delay をマイナスに設定しています。<br>
+　今後の課題 <br>
+ 　この値を JavaScript でランダムな数値にすることによって、絵文字が登場する位置が<br>
+  　その都度変わるようにすること
