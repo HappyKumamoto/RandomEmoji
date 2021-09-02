@@ -18,7 +18,7 @@
 ![18](https://user-images.githubusercontent.com/67646107/130399454-cb23a077-e549-4e8f-8fa2-d6e1fa5abd31.jpeg)
 
 &nbsp; <br>
-◯ N予備校 プログラミング入門コース 第1章 「オブジェクト」の授業で作成した<br>
+◯ N予備校 プログラミング入門コース 第1章 「JavaScript の オブジェクト」の授業で作成した<br>
 「時間あてゲーム」をモバイル端末でも遊べるようにしたくて作りました。
 
 ◯ cssのアニメーションの遅延 animation-delay をマイナスに設定しています。<br>
