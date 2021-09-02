@@ -16,7 +16,7 @@
    /*アニメーション遅延の値をマイナスにすると、既にその秒数進んだ場所
      から始まる。
      この値をランダムにして、絵文字の開始位置をランダムに試行錯誤中*/
-   animation-delay: -2.4s ;
+   animation-delay: -5.6s ;
  
    animation-direction: alternate;  /*順方向と逆方向を繰り返す*/
    animation-timing-function: linear ; /*動きを一定に*/
