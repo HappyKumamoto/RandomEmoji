@@ -34,7 +34,7 @@
             }
       }  V字型のような動き  */
 
-     @keyframes marquee {     /*左から右への動き(これを往復させる)*/
+    /* @keyframes marquee {     /*左から右への動き(これを往復させる)
          0%{transform: translate(-70%,20%) ;}
         10%{transform: translate(-66%,50%) ;}
         20%{transform: translate(-62%,80%) ;}
@@ -49,6 +49,30 @@
         90%{transform: translate(-34%,50%) ;}
        100%{transform: translate(-30%, 20%) ;}
       }       /*U字型の動き*/
+
+     @keyframes marquee {  /*左から右への動き(これを往復させる)*/
+         0%{transform: translate(-70%,20%) ;}
+         5%{transform: translate(-66%,50%) ;}
+        10%{transform: translate(-62%,80%) ;}
+        15%{transform: translate(-60%,95%) ;}
+        20%{transform: translate(-58%,110%) ;}
+        25%{transform: translate(-54%,140%) ;}
+        30%{transform: translate(-50%,150%) ;}
+        35%{transform: translate(-45%,140%) ;}
+        40%{transform: translate(-40%,110%) ;}
+        45%{transform: translate(-45%,140%) ;}
+        50%{transform: translate(-50%,150%) ;}
+        55%{transform: translate(-55%,140%) ;}
+        60%{transform: translate(-60%,110%) ;}
+        65%{transform: translate(-55%,140%) ;}
+        70%{transform: translate(-50%,150%) ;}
+        75%{transform: translate(-46%,140%) ;}
+        80%{transform: translate(-42%,110%) ;}
+        85%{transform: translate(-40%,95%) ;}
+        90%{transform: translate(-38%,80%) ;}
+        95%{transform: translate(-34%,50%) ;}
+       100%{transform: translate(-30%, 20%) ;}
+      }       /*複雑なU字型の動き*/
 
 #display-area{  /*普通より上の位置に*/
       position: relative; 
