@@ -11,12 +11,12 @@
    display: inline-block;
    padding-left: 100%;
    white-space: nowrap;     
-   animation: marquee 3.14s infinite;
+   animation: marquee 12s infinite;
  
    /*アニメーション遅延の値をマイナスにすると、既にその秒数進んだ場所
      から始まる。
      この値をランダムにして、絵文字の開始位置をランダムに試行錯誤中*/
-   animation-delay: -2.2s ;
+   animation-delay: -5.5s ;
  
    animation-direction: alternate;  /*順方向と逆方向を繰り返す*/
    animation-timing-function: linear ; /*動きを一定に*/
@@ -34,7 +34,7 @@
             }
       }  V字型のような動き  */
 
-    @keyframes marquee {     /*左から右への動き(これを往復させる)*/
+    /*@keyframes marquee {     /*左から右への動き(これを往復させる)
          0%{transform: translate(-70%,20%) ;}
         10%{transform: translate(-66%,50%) ;}
         20%{transform: translate(-62%,80%) ;}
@@ -50,7 +50,7 @@
        100%{transform: translate(-30%, 20%) ;}
       }       /*U字型の動き*/
 
-     /*@keyframes marquee {  /*左から右への動き(これを往復させる)
+     @keyframes marquee {  /*左から右への動き(これを往復させる)*/
          0%{transform: translate(-70%,20%) ;}
          5%{transform: translate(-66%,50%) ;}
         10%{transform: translate(-62%,80%) ;}
