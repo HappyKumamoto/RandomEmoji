@@ -13,7 +13,7 @@
 
 &nbsp; <br>
 
-- スマホ(iPhone)での見え方<br>
+- スマホ(iPhone SE2)での見え方<br>
 ![17](https://user-images.githubusercontent.com/67646107/130399439-c4bb8a84-148d-4cb1-9c32-c64edad95222.jpeg)
 ![18](https://user-images.githubusercontent.com/67646107/130399454-cb23a077-e549-4e8f-8fa2-d6e1fa5abd31.jpeg)
 
