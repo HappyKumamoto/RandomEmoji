@@ -20,6 +20,6 @@ function opacitySpecial() {
 
   special.style.opacity = opacity;
 }
-// 200ミリ秒ごとに opacityAnimate 関数を実行する
+// 200ミリ秒ごとに opacitySpecial 関数を実行する
 setInterval(opacitySpecial, 200);
 
