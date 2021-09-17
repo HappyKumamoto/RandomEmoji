@@ -34,7 +34,7 @@
             }
       }  V字型のような動き  */
 
-    @keyframes marquee {     /*左から右への動き(これを往復させる)*/
+    /*@keyframes marquee {     /*左から右への動き(これを往復させる)
          0%{transform: translate(-70%,20%) ;}
         10%{transform: translate(-66%,50%) ;}
         20%{transform: translate(-62%,80%) ;}
@@ -50,7 +50,7 @@
        100%{transform: translate(-30%, 20%) ;}
       }       /*U字型の動き*/
 
-     /*@keyframes marquee {  /*左から右への動き(これを往復させる)
+     @keyframes marquee {  /*左から右への動き(これを往復させる)*/
          0%{transform: translate(-70%,20%) ;}
          5%{transform: translate(-66%,50%) ;}
         10%{transform: translate(-62%,80%) ;}
