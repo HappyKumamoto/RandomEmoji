@@ -18,7 +18,8 @@ const game = { //gameオブジェクトの宣言
 
     bgm1:new Audio('bgm/hands.mp3'),   //紙吹雪の時の効果音
     bgm2:new Audio('bgm/tekkin.mp3'),  //絵文字が降る時
-    bgm3:new Audio('bgm/oshii.mp3')    //「おしい」の時
+    bgm3:new Audio('bgm/bgm_chan.mp3')  //新「おしい」の音
+//     bgm3:new Audio('bgm/oshii.mp3')    //「おしい」の時
 
 };
 
@@ -85,7 +86,7 @@ function stop() {
         ＼ おしいです ／ `;
         //今回の絵文字が回転しながら透過度も変化しながら降りていく + 効果音
         
-        game.bgm3.play();    //残念な感じのジングル
+        game.bgm3.play();    //(新 チャンチャン)(旧 残念な感じのジングル)
         
         document.body.appendChild(sp);
         special.innerText = emojis[emojiNo];
