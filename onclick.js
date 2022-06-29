@@ -63,7 +63,7 @@ function stop() {
     if ( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+0.5) ) {
         //( 当てる秒数 + 0.5 )未満ならば 「おめでとう」と紙吹雪表示 + 効果音
         
-        game.bgm1.play();       //歓声と拍手
+        //game.bgm1.play();       //歓声と拍手//220630音停止中
         //game.bgm1.loop = true;//bgm繰り返し
         
         game.displayArea.innerText = `${seconds}秒でした！
@@ -73,7 +73,7 @@ function stop() {
     }else if( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+1) ) {
         //( 当てる秒数 + 1 )未満ならば 「すばらしい」を表示 + 効果音
         
-        game.bgm2.play();        //鉄琴の音色
+        //game.bgm2.play();        //鉄琴の音色//220630音停止中
         
         game.displayArea.innerText = `${seconds}秒でした！
         ＼すばらしい！／`;
@@ -86,7 +86,7 @@ function stop() {
         ＼ おしいです ／ `;
         //今回の絵文字が回転しながら透過度も変化しながら降りていく + 効果音
         
-        game.bgm3.play();    //(新 チャンチャン)(旧 残念な感じのジングル)
+        //game.bgm3.play();    //(新 チャンチャン)(旧 残念な感じのジングル)//220630音停止中
         
         document.body.appendChild(sp);
         special.innerText = emojis[emojiNo];
