@@ -94,6 +94,11 @@ function stop() {
         
     }
   //document.body.onclick = null; (二度目禁止「すばらしい」で効かなかった為上に移動)
+
+let btnReload = document.getElementById('btnReload');
+btnReload.addEventListener('click', function(){
+    location.reload();
+});    //リロードさせる
 }   
 
 //コンファーム内の表示
