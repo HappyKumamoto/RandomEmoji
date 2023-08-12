@@ -10,7 +10,7 @@
 input {
 /*   display: flex; */
   align-items: center;
-/*   justify-content: center; */
+  justify-content: center;
   width: 80px;
 /*   aspect-ratio: 1; */
   font-family: sans-serif;
