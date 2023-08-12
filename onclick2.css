@@ -8,12 +8,12 @@
   }
 
 input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/*   display: flex; */
+/*   align-items: center; */
+/*   justify-content: center; */
   width: 80px;
-  aspect-ratio: 1;
-  background-color: #6fa24a;
+/*   aspect-ratio: 1; */
+  background-color: #0077FF;
   border-radius: 50%;
 }
 
