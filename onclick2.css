@@ -16,6 +16,7 @@ input {
   font-family: sans-serif;
   color:skyblue;
   background-color: #0077FF;
+  border-style: none;
   border-radius: 50%;
 }
 
