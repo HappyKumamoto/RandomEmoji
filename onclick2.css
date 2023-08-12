@@ -7,7 +7,7 @@
     overflow:hidden;     /*スクロールバーを隠す*/
   }
 
-.button {
+input {
   display: flex;
   align-items: center;
   justify-content: center;
