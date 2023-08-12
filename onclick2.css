@@ -13,6 +13,8 @@ input {
 /*   justify-content: center; */
   width: 80px;
 /*   aspect-ratio: 1; */
+  font-family: sans-serif;
+  color:skyblue;
   background-color: #0077FF;
   border-radius: 50%;
 }
