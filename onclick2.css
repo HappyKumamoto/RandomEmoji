@@ -21,13 +21,6 @@ input {
   border-radius: 50%;
 }
 
-    /*コレ*/display: flex;
-    /*コレ*/align-items: center;
-    /*コレ*/justify-content: center;
-    height: 200px;
-    background: #EEE;
-    border: 1px solid #999;
-
 .marquee-anime{
    display: inline-block;
    padding-left: 100%;
