@@ -12,11 +12,11 @@ input {
   align-items: center;
   justify-content: center;
   width: 80px;
-  aspect-ratio: 1;
+/*   aspect-ratio: 1; */
   font-family: sans-serif;
   color::#FFFFEE;
   background-color: #0077FF;
-  border: 1px solid :#FFFFEE;
+  border: 1px solid #FFFFEE;
   border-radius: 50%;
 }
 
