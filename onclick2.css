@@ -14,11 +14,19 @@ input {
   width: 80px;
 /*   aspect-ratio: 1; */
   font-family: sans-serif;
-  color:skyblue;
+  color::#FFFFEE;
   background-color: #0077FF;
-  border-style: solid;
+/*   skyblue */
+  border: 1px solid :#FFFFEE;
   border-radius: 50%;
 }
+
+    /*コレ*/display: flex;
+    /*コレ*/align-items: center;
+    /*コレ*/justify-content: center;
+    height: 200px;
+    background: #EEE;
+    border: 1px solid #999;
 
 .marquee-anime{
    display: inline-block;
