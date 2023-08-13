@@ -7,6 +7,7 @@
     overflow:hidden;     /*スクロールバーを隠す*/
   }
 
+/* リロードさせる スタートボタン 230812追加  */
 input {
 /*   display: flex; */
 /*   align-items: center; */
