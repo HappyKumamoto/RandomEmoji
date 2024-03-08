@@ -60,7 +60,7 @@ function stop() {
     
     document.body.onclick = null;   //二回以上は押せないようにする
     
-    if ( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+0.5) ) {
+    if ( (ss[ssNo]-0.5) <= seconds && seconds <= (ss[ssNo]+0.5) ) {
         //( 当てる秒数 + 0.5 )未満ならば 「おめでとう」と紙吹雪表示 + 効果音
         
         //game.bgm1.play();       //歓声と拍手//220630音停止中
@@ -70,7 +70,7 @@ function stop() {
         おめでとうございます!! `;
         document.body.appendChild(el);  //kami.jsで紙吹雪を出す
         
-    }else if( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+1) ) {
+    }else if( (ss[ssNo]-1) < seconds && seconds < (ss[ssNo]+1) ) {
         //( 当てる秒数 + 1 )未満ならば 「すばらしい」を表示 + 効果音
         
         //game.bgm2.play();        //鉄琴の音色//220630音停止中
